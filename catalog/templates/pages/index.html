@@ -1,0 +1,234 @@
+{% extends "layout.html" %}
+{% load static %}
+
+
+{% block content %}
+        <!-- HEADER-START -->
+        <header id="header">
+            <div class="header">
+                <div class="container">
+                    <div class="header-navbar">
+                        <div class="header-logo">
+                            <h2>NEEF</h2>
+                        </div>
+                        <div class="header-menu">
+                            <ul id="menuItems">
+                                <li><a href="#home">Anasayfa</a></li>
+                                <li><a href="#about">Hakkımızda</a></li>
+                                <li><a href="#portfolio">Ürünler</a></li>
+                                <li><a href="#contact">İletişim</a></li>
+                            </ul>
+                            <i class="fa-solid fa-bars" id="menu-icon" onclick="menuToggle();"></i>
+                        </div>
+                    </div>
+                    <div class="header-text">
+                        <h1>
+                            WELCOME
+                        </h1>
+                        <h3>
+                            American Service
+                        </h3>
+                        <a href="#portfolio" class="btn-coffe">Ürünler</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- HEADER-FINISH -->
+    
+    
+        <!-- ABOUT-START -->
+            <section id="about">
+                <div class="about">
+                    <div class="container">
+                        <div class="about-tittle">
+                            <h2>
+                                HAKKIMIZDA
+                            </h2>
+                        </div>
+                        <div class="about-content">
+                            <div class="about-img anime-left">
+                                <img src="{% static 'img/deri.jpg' %}" alt="">
+                            </div>
+                            <div class="about-text anime-right">
+                                <h4>
+                                    <!-- Our Story -->
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum nulla, ullam beatae aspernatur aliquam itaque! <br>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, illo. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- ABOUT-FINISH -->
+    
+    
+        <!-- PORTFOLİO-START -->
+        <section id="portfolio">
+            <div class="portfolio">
+                <div class="portfolio-item ani1">
+                    <a href="{% static 'img/post 1.jpg' %}" data-lightbox="smaple-1" data-title="Amerikan Servis">
+                        <img src="{% static 'img/post 1.jpg' %}" alt="">
+                        <div class="overlay">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio-item ani2">
+                    <a href="{% static 'img/post 1.jpg' %}" data-lightbox="smaple-1" data-title="Amerikan Servis">
+                        <img src="{% static 'img/post 1.jpg' %}" alt="">
+                        <div class="overlay">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio-item ani3">
+                    <a href="{% static 'img/post 1.jpg' %}" data-lightbox="smaple-1" data-title="Amerikan Servis">
+                        <img src="{% static 'img/post 1.jpg' %}" alt="">
+                        <div class="overlay">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio-item ani4">
+                    <a href="{% static 'img/post 1.jpg' %}" data-lightbox="smaple-1" data-title="Amerikan Servis">
+                        <img src="{% static 'img/post 1.jpg' %}" alt="">
+                        <div class="overlay">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio-item ani5">
+                    <a href="{% static 'img/post 1.jpg' %}" data-lightbox="smaple-1" data-title="Amerikan Servis">
+                        <img src="{% static 'img/post 1.jpg' %}" alt="">
+                        <div class="overlay">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio-item ani6">
+                    <a href="{% static 'img/post 1.jpg' %}" data-lightbox="smaple-1" data-title="Amerikan Servis">
+                        <img src="{% static 'img/post 1.jpg' %}" alt="">
+                        <div class="overlay">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio-item ani7">
+                    <a href="{% static 'img/post 1.jpg' %}" data-lightbox="smaple-1" data-title="Amerikan Servis">
+                        <img src="{% static 'img/post 1.jpg' %}" alt="">
+                        <div class="overlay">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio-item ani8">
+                    <a href="{% static 'img/post 1.jpg' %}" data-lightbox="smaple-1" data-title="Amerikan Servis">
+                        <img src="{% static 'img/post 1.jpg' %}" alt="">
+                        <div class="overlay">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+                    </a>
+                </div>
+               
+            </div>
+        </section>
+        <!-- PORTFOLİO-FINISH -->
+    
+    
+        <!-- DISCOVER-START -->
+        <section id="about">
+            <div class="about">
+                <div class="container">
+                    <div class="about-tittle">
+                        <h2>
+                            KEŞFET
+                        </h2>
+                    </div>
+                    <div class="about-content">
+                        <div class="about-img anime-left">
+                            <img src="{% static 'img/pexels-kevin-menajang-1206258.jpg' %}" alt="">
+                        </div>
+                        <div class="about-text anime-right">
+                            <h4>
+                                <!-- Our Story -->
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum nulla, ullam beatae aspernatur aliquam itaque! <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, illo. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- DISCOVER-FINISH -->
+    
+    
+        <!-- CONTACT-START -->
+        <section id="contact">
+            <div class="contact">
+                <div class="container">
+                    <div class="page-tittle">
+                        <h2>İLETİŞİM</h2>
+                    </div>
+                    <div class="contact-content">
+                        <div class="contact-item anime-top">
+                            <i class="fa-solid fa-phone-flip"></i>
+                            <p>
+                                0541 290 48 30
+                            </p>
+                            <p>
+                                0553 354 72 70
+                            </p>
+                        </div>
+                        <div class="contact-item anime-bottom">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, molestias!
+                            </p>
+                        </div>
+                        <div class="contact-item anime-top">
+                            <i class="fa-solid fa-envelope-open"></i>
+                            <p>
+                                neefınfotr@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT-FINISH -->
+    
+        <!-- FOOTER-START -->
+        <footer id="footer">
+            <div class="footer">
+                <div class="footer-content">
+                    <div class="page-tittle">
+                        <h2>BİZE ULAŞIN</h2>
+                    </div>
+                    <!-- <div class="footer-copyright">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, possimus?
+                        </p>
+                        <br>
+                    </div> -->
+                    <nav class="footer-social">
+                        <ul>
+                            <li>
+                                <a href="https://www.instagram.com/neef.info/ " target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/neef.info" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/onur_kesici" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="credit">
+                        created by <span>Onur KESİCİ</span> | all rigths reserved
+                      </div>
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER-FINISH -->
+{% endblock %}
